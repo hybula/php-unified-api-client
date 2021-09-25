@@ -1,6 +1,12 @@
 # Unified API Client (PHP)
 Official client for our Unified API using PHP.
 
+## Requirements
+- PHP 7.4 or newer
+- cURL extension
+- JSON extension
+- OpenSSL extension
+
 ## Installation
 You may install it using Composer:
 ```
@@ -17,9 +23,8 @@ use Hybula\Unified;
 
 $api = new Client();
 $api->setAuthCredentials('apiKey', 'apiToken');
-$api->setApiProduct('capsule');
-$api->setDomain('domain.com');
-$apiCall = $api->apiCall('POST', 'letsencrypt', ['type' => 'letsencrypt-ecc']);
+$api->setApiCore('capsule');
+$apiCall = $api->apiCall('POST', 'domain.com/letsencrypt', ['type' => 'letsencrypt-ecc']);
 var_dump($apiCall);
 ```
 
