@@ -1,0 +1,28 @@
+{
+  "name": "hybula/php-unified-api-client",
+  "description": "Official PHP client for our Unified API.",
+  "license": "Mozilla Public License Version 2.0",
+  "homepage": "https://www.hybula.com/",
+  "authors": [
+    {
+      "name": "Hybula Development Team",
+      "email": "development@hybula.com",
+      "homepage": "https://www.hybula.com/",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "support@hybula.com",
+    "forum": "https://community.hybula.com/",
+    "wiki": "https://community.hybula.com/"
+  },
+  "require": {
+    "php": ">=7.0",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Hybula\\Unified\\": "src/Hybula/Unified/"
+    }
+  }
+}
