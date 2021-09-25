@@ -4,7 +4,7 @@ Official client for our Unified API using PHP.
 ## Installation
 You may install it using Composer:
 ```
-composer install hybula/php-unified-api-client
+composer require hybula/php-unified-api-client
 ```
 
 ## Example
