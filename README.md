@@ -29,5 +29,9 @@ require __DIR__.'/src/Hybula/Unified/Client.php';
 $api = new \Hybula\Unified\Client();
 ```
 
+## Security
+At Hybula we always develop secure-by-design, however as we are human too, security vulnerabilities or issues are always possible. If you found anything please let us know as soon as possible through email at: pgp(at)hybula.com
+Please do not report security related issues through GitHub.
+
 ## License
 Mozilla Public License Version 2.0
