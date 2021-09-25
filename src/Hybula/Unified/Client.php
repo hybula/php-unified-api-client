@@ -1,4 +1,24 @@
 <?php
+/**
+ * =========================================
+ * =========================================
+ * **   _  ___   _____ _   _ _      _     **
+ * **  | || \ \ / / _ ) | | | |    /_\    **
+ * **  | __ |\ V /| _ \ |_| | |__ / _ \   **
+ * **  |_||_| |_| |___/\___/|____/_/ \_\  **
+ * **                                     **
+ * =========================================
+ * =========================================
+ *
+ * Unified API Client (PHP)
+ *
+ * @package Hybula\Unified
+ * @author Hybula Development Team <development@hybula.com>
+ * @version 0.0.1
+ * @copyright Hybula B.V.
+ * @license MPL-2.0 License
+ * @see https://github.com/hybula/php-unified-api-client
+ */
 
 declare(strict_types=1);
 
